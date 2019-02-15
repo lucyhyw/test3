@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment2A</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script
+		  src="https://code.jquery.com/jquery-3.1.1.min.js"
+		  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		  crossorigin="anonymous">
+		</script>
+		<script src="index.js"></script>
+	</head>
+	<body>
+	    <div id="header">
+	    	<div class="wrapper">
+		    	<div id="navigation">
+		    		<ul id="actions">
+		    			<li><a href="#">Home</a></li>
+		    			<li><a href="#">Moments</a></li>
+		    			<li><a href="#">Notifications</a></li>
+		    			<li><a href="#">Messages</a></li>
+		    		</ul>
+		    	</div>
+		    	<a href="#"><div id="home_action"></div></a>
+		    	<input type="checkbox" id="feed_toggle" checked> Feed On
+	    	</div>
+	    </div>
+	    <div id="main" class="wrapper">
+	    	<div class="content" id="left">
+	    		<div id="profile" class="card">
+	    			<div class="cover">
+	    				<div class="cover_img"></div>
+	    			</div>
+	    			<div class="profile">
+	    				<div class="p_picture"></div>
+	    				<div class="profile_id">
+	    					<span class="p_name">Penguin</span>
+	    					<span class="p_handle">@penguin</span>
+	    				</div>
+	    				<div class="profile_stats">
+	    					<div class="tweets_stats">
+	    						<span class="stat_title">
+	    							Tweets
+	    						</span>
+	    						<span class="stat_count">
+	    							1279
+	    						</span>
+	    					</div>
+	    					<div class="tweets_stats">
+	    						<span class="stat_title">
+	    							Following
+	    						</span>
+	    						<span class="stat_count">
+	    							155
+	    						</span>
+	    					</div>
+	    					<div class="tweets_stats">
+	    						<span class="stat_title">
+	    							Followers
+	    						</span>
+	    						<span class="stat_count">
+	    							109
+	    						</span>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div id="middle" class="content">
+	    	</div>
+	    	<div id="right" class="content">
+	    		<div id="follow_suggestions">
+		    		<span id="follow_title">Who to follow</span>
+		    		<div class="row">
+		    			<div class="p_picture"></div>
+		    			<span class="p_name">Big Penguin</span>
+		    			<span class="p_handle">@bigpenguin</span>
+		    			<a href="#"><button class="follow button">Follow</button></a>
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div>
+	</body>
+</html>
